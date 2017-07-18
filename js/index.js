@@ -35,7 +35,8 @@ $(document).ready(function initViz() {
     url = "http://analytics.bbdo.com/t/SandersonFarms/views/SandersonFarmsSummary/SUMMARY",
 
     options = {
-
+      width: '100%',
+      height: '100%',
       hideToolbar: false,
       onFirstInteractive: function() {
 
